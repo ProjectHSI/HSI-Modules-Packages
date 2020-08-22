@@ -1,0 +1,129 @@
+{
+  "_from": "droppy",
+  "_id": "droppy@12.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-GqodLHq6nmqozz9K0TTA7SBQLWAPGrz/Jud1VmYrr62uW1IgfiusOpgF6FpHx6NKFev+RXZK1945rPpyNBkg6w==",
+  "_location": "/droppy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "droppy",
+    "name": "droppy",
+    "escapedName": "droppy",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/droppy/-/droppy-12.0.1.tgz",
+  "_shasum": "7802f71b250e8796d4c81c2f092a2de9d3691582",
+  "_spec": "droppy",
+  "_where": "C:\\Program Files\\nodejs\\node_modules",
+  "author": {
+    "name": "silverwind",
+    "email": "me@silverwind.io"
+  },
+  "bin": {
+    "droppy": "droppy.js"
+  },
+  "browserslist": "defaults",
+  "bugs": {
+    "url": "https://github.com/silverwind/droppy/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "busboy": "0.3.1",
+    "chokidar": "3.4.1",
+    "colorette": "1.2.1",
+    "content-disposition": "0.5.3",
+    "daemonize-process": "3.0.0",
+    "escape-string-regexp": "4.0.0",
+    "etag": "1.8.1",
+    "file-extension": "4.0.5",
+    "fs-extra": "9.0.1",
+    "image-size": "0.8.3",
+    "isbinaryfile": "4.0.6",
+    "json-buffer": "3.0.1",
+    "lodash.debounce": "4.0.8",
+    "lodash.throttle": "4.1.1",
+    "mime-types": "2.1.27",
+    "minimist": "1.2.5",
+    "mv": "2.1.1",
+    "original-url": "1.2.3",
+    "plyr": "3.6.2",
+    "ps-node": "0.1.6",
+    "rfdc": "1.1.4",
+    "rrdir": "8.1.1",
+    "send": "0.17.1",
+    "strip-ansi": "6.0.0",
+    "untildify": "4.0.0",
+    "valid-filename": "3.1.0",
+    "which": "2.0.2",
+    "ws": "7.3.1",
+    "yazl": "2.5.1"
+  },
+  "deprecated": false,
+  "description": "Self-hosted file storage",
+  "devDependencies": {
+    "autoprefixer": "9.8.5",
+    "clean-css": "4.2.3",
+    "codemirror": "5.56.0",
+    "eslint": "7.5.0",
+    "eslint-config-silverwind": "17.0.0",
+    "eslint-plugin-unicorn": "21.0.0",
+    "handlebars": "4.7.6",
+    "html-minifier": "4.0.0",
+    "mousetrap": "1.6.5",
+    "pdfjs-dist": "2.4.456",
+    "photoswipe": "4.1.3",
+    "postcss": "7.0.32",
+    "screenfull": "5.0.2",
+    "stylelint": "13.6.1",
+    "stylelint-config-silverwind": "2.0.8",
+    "svgstore": "3.0.0-2",
+    "terser": "4.8.0",
+    "updates": "10.3.3",
+    "uppie": "1.1.3",
+    "versions": "8.4.2"
+  },
+  "engines": {
+    "node": ">= 12.10.0"
+  },
+  "files": [
+    "client",
+    "server",
+    "dist",
+    "droppy.js",
+    "docker-start.sh"
+  ],
+  "homepage": "https://github.com/silverwind/droppy#readme",
+  "keywords": [
+    "self-hosted",
+    "personal",
+    "file",
+    "server",
+    "http",
+    "https",
+    "media",
+    "cloud",
+    "storage",
+    "self",
+    "hosted"
+  ],
+  "license": "BSD-2-Clause",
+  "name": "droppy",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverwind/droppy.git"
+  },
+  "scripts": {
+    "start": "node droppy.js start",
+    "test": "make test"
+  },
+  "version": "12.0.1"
+}
