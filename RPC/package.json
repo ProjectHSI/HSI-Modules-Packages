@@ -1,0 +1,25 @@
+{
+  "name": "richpresencecustom",
+  "version": "0.0.1",
+  "description": "A Custom Rich Presence Setter for Discord.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectHSI/RichPresenceCustom.git"
+  },
+  "author": "[Project HSI]",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProjectHSI/RichPresenceCustom/issues"
+  },
+  "homepage": "https://github.com/ProjectHSI/RichPresenceCustom#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "discord-rich-presence": "0.0.8",
+    "moment": "^2.27.0",
+    "npmlog": "^4.1.2"
+  }
+}
